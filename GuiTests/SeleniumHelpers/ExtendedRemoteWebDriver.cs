@@ -7,6 +7,7 @@ using OpenQA.Selenium.Remote;
 
 namespace Structura.GuiTests.SeleniumHelpers
 {
+    //This class use for screenshoot, get the link of host page.
     public class ExtendedRemoteWebDriver : RemoteWebDriver, ITakesScreenshot
     {
         private readonly Uri _remoteHost;
